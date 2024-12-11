@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: navy;
+  padding: 10px 20px;
+  height: 10%;
+}
+
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2px; /* Jarak antar garis */
+  cursor: pointer;
+}
+
+.burger-menu span {
+  display: block;
+  width: 25px; /* Panjang garis */
+  height: 3px; /* Ketebalan garis */
+  background-color: white; /* Warna garis */
+  border-radius: 2px; /* Sudut garis melengkung */
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  width: 40px; /* Sesuaikan ukuran */
+  height: 50px; /* Biarkan proporsional */
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.logo img {
+  max-width: 80%;
+  height: auto; /* Menjaga rasio gambar */
+  object-fit: contain; /* Menyesuaikan gambar tanpa crop */
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard h1,
+p {
+  font-size: 24px;
+  color: white;
+  margin-left: 10px;
+}
